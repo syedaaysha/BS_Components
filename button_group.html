@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<title>Grid System</title>
+	<link rel="stylesheet" href="css/bootstrap.css">
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+	
+	<!-- =========breadcrumb_start========= -->
+	<nav aria-label="breadcrumb">
+	  <ol class="breadcrumb">
+	    <li class="breadcrumb-item"><a href="index.html">Alert</a></li>
+	    <li class="breadcrumb-item"><a href="badge.html">Badge</a></li>
+	    <li class="breadcrumb-item"><a href="button.html">Buttons</a></li>
+	    <li class="breadcrumb-item active" aria-current="page">Button Group</li>
+	    <li class="breadcrumb-item"><a href="dropdown.html">Dropdowns</a></li>
+	    <li class="breadcrumb-item"><a href="form.html">Forms</a></li>
+	    <li class="breadcrumb-item"><a href="input_group.html">Input Group</a></li>
+	    <li class="breadcrumb-item"><a href="jumbotron.html">Jumbotron</a></li>
+	  </ol>
+	</nav>
+	<!-- =========breadcrumb_end========= -->
+	<!-- =========buttongroup_start========= -->
+	<section>
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12 margin">
+					<h3>Button Group</h3>
+					<div class="btn-group" role="group" aria-label="Basic example">
+					  <button type="button" class="btn btn-secondary">Left</button>
+					  <button type="button" class="btn btn-secondary">Middle</button>
+					  <button type="button" class="btn btn-secondary">Right</button>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- =========buttongroup_end========= -->
+	<!-- =========buttongroup_toolbar_start========= -->
+	<section>
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12 margin">
+					<h3>Button Toolbar</h3>
+					<div class="btn-toolbar mb-3" role="toolbar" aria-label="Toolbar with button groups">
+					  <div class="btn-group mr-2" role="group" aria-label="First group">
+					    <button type="button" class="btn btn-secondary">1</button>
+					    <button type="button" class="btn btn-secondary">2</button>
+					    <button type="button" class="btn btn-secondary">3</button>
+					    <button type="button" class="btn btn-secondary">4</button>
+					  </div>
+					  <div class="btn-group mr-2" role="group" aria-label="Second group">
+					    <button type="button" class="btn btn-secondary">5</button>
+					    <button type="button" class="btn btn-secondary">6</button>
+					    <button type="button" class="btn btn-secondary">7</button>
+					  </div>
+					  <div class="btn-group" role="group" aria-label="Third group">
+					    <button type="button" class="btn btn-secondary">8</button>
+					  </div>
+					</div>
+					<div class="btn-toolbar mb-3" role="toolbar" aria-label="Toolbar with button groups">
+					  <div class="btn-group mr-2" role="group" aria-label="First group">
+					    <button type="button" class="btn btn-secondary">1</button>
+					    <button type="button" class="btn btn-secondary">2</button>
+					    <button type="button" class="btn btn-secondary">3</button>
+					    <button type="button" class="btn btn-secondary">4</button>
+					  </div>
+					  <div class="input-group">
+					    <div class="input-group-prepend">
+					      <div class="input-group-text" id="btnGroupAddon">@</div>
+					    </div>
+					    <input type="text" class="form-control" placeholder="Input group example" aria-label="Input group example" aria-describedby="btnGroupAddon">
+					  </div>
+					</div>
+					<div class="btn-toolbar justify-content-between" role="toolbar" aria-label="Toolbar with button groups">
+					  <div class="btn-group" role="group" aria-label="First group">
+					    <button type="button" class="btn btn-secondary">1</button>
+					    <button type="button" class="btn btn-secondary">2</button>
+					    <button type="button" class="btn btn-secondary">3</button>
+					    <button type="button" class="btn btn-secondary">4</button>
+					  </div>
+					  <div class="input-group">
+					  	<input type="text" class="form-control" placeholder="Input group example" aria-label="Input group example" aria-describedby="btnGroupAddon2">
+					    <div class="input-group-append">
+					      <div class="input-group-text" id="btnGroupAddon2">@</div>
+					    </div>
+					  </div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- =========buttongroup_toolbar_end========= -->
+	<!-- =========buttongroup_start========= -->
+	<section>
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12 margin">
+					<h3>Nesting</h3>
+					<div class="btn-group" role="group" aria-label="Button group with nested dropdown">
+					  <button type="button" class="btn btn-secondary">1</button>
+					  <button type="button" class="btn btn-secondary">2</button>
+
+					  <div class="btn-group" role="group">
+					    <button id="btnGroupDrop1" type="button" class="btn btn-secondary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+					      Dropdown
+					    </button>
+					    <div class="dropdown-menu" aria-labelledby="btnGroupDrop1">
+					      <a class="dropdown-item" href="#">Dropdown link</a>
+					      <a class="dropdown-item" href="#">Dropdown link</a>
+					    </div>
+					  </div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- =========buttongroup_end========= -->
+	<!-- =========buttongroup_start========= -->
+	<section>
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12 margin">
+					<h3>Vertical</h3>
+					<div class="btn-group-vertical" role="group" aria-label="Button group with nested dropdown">
+					  <button type="button" class="btn btn-secondary">button 1</button>
+					  <button type="button" class="btn btn-secondary">button 2</button>
+					  <button type="button" class="btn btn-secondary">button 3</button>
+					  <button type="button" class="btn btn-secondary">button 4</button>
+					  <div class="btn-group" role="group">
+					    <button id="btnGroupDrop1" type="button" class="btn btn-secondary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+					      Dropdown 5
+					    </button>
+					    <div class="dropdown-menu" aria-labelledby="btnGroupDrop1">
+					      <a class="dropdown-item" href="#">Dropdown link</a>
+					      <a class="dropdown-item" href="#">Dropdown link</a>
+					    </div>
+					  </div>
+					  <button type="button" class="btn btn-secondary">button 6</button>
+					  <button type="button" class="btn btn-secondary">button 7</button>
+					  <button type="button" class="btn btn-secondary">button 8</button>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- =========buttongroup_end========= -->
+
+
+	<script src="js/jquery-3.3.1.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/script.js"></script>
+</body>
+</html>
